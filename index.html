@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f5f0">
+  <meta name="description" content="Thoughtful everyday pieces with a little more soul. Discover the latest from Forme Studio.">
+  <title>Forme Studio — Wear your own story</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">A little something for your next chapter <span>—</span> <a href="#shop">Explore the new collection <span aria-hidden="true">↗</span></a></div>
+  <header class="site-header">
+    <button class="icon-button menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <a class="wordmark" href="#home" aria-label="Forme Studio home">forme<span>®</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#shop">Shop all</a><a href="#story">Our story</a><a href="#journal">The journal</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button search-toggle" aria-label="Search products"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg></button>
+      <a class="account-link" href="#newsletter">Sign in</a>
+      <button class="bag-button" aria-label="Shopping bag, 0 items">Bag <span class="bag-count">0</span></button>
+    </div>
+  </header>
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1758613655378-89bb3d122c57?auto=format&amp;fit=crop&amp;w=2200&amp;q=85" alt="Male fashion model in a stylish contemporary outfit">
+      <div class="hero-wash"></div>
+      <div class="hero-copy"><p class="eyebrow light">The in-between collection · No. 04</p><h1 id="hero-title">Made for<br><em>your kind</em><br>of ordinary.</h1><p class="hero-subtitle">Easy things to wear. Good things to keep.</p><a class="button button-light" href="#shop">Meet the collection <span>↗</span></a></div>
+      <div class="hero-stamp" aria-hidden="true"><span>GOOD THINGS<br>TAKE THEIR TIME</span><b>F</b><small>FORME STUDIO · 2026</small></div>
+      <div class="hero-side-note" aria-hidden="true">DRESS LIKE YOU MEAN IT — EST. 2019</div>
+      <div class="hero-note"><span class="note-line"></span><span>Made slowly, worn often.</span></div>
+      <div class="hero-index">01 <span>—</span> 03</div>
+    </section>
+    <section class="intro section-wrap" id="story">
+      <p class="eyebrow">A note from us</p><p class="intro-copy">Getting dressed should feel like <em>coming home.</em> We make considered clothes for all the days that make up a life — the big ones, and especially the little ones.</p><a class="text-link" href="#journal">A little more about us <span>↗</span></a>
+    </section>
+    <div class="ticker" aria-label="Forme Studio: Wear it your way. Made to stay."><div class="ticker-track"><span>Wear it your way <b>✳</b> Made to stay <b>✳</b> Better by nature <b>✳</b> A softer kind of statement <b>✳</b></span><span aria-hidden="true">Wear it your way <b>✳</b> Made to stay <b>✳</b> Better by nature <b>✳</b> A softer kind of statement <b>✳</b></span></div></div>
+    <section class="shop-section section-wrap" id="shop">
+      <div class="section-heading"><div><p class="eyebrow">A good place to start</p><h2>New, and <em>noteworthy.</em></h2></div><a class="text-link desktop-link" href="#all-products">View everything <span>↗</span></a></div>
+      <div class="filter-row" role="group" aria-label="Filter products"><button class="filter-chip active" data-filter="all">All things</button><button class="filter-chip" data-filter="clothing">Clothing</button><button class="filter-chip" data-filter="accessories">Accessories</button><span class="product-count">04 pieces</span></div>
+      <div class="carousel-shell">
+        <div class="carousel-viewport" aria-label="Product carousel">
+          <div class="product-grid" id="all-products" aria-live="polite"></div>
+        </div>
+        <div class="carousel-controls"><span class="carousel-position">01 <i></i> 20</span><div class="carousel-buttons"><button class="carousel-button carousel-prev" type="button" aria-label="Previous products" disabled>←</button><button class="carousel-button carousel-next" type="button" aria-label="Next products">→</button></div></div>
+      </div>
+      <a class="text-link mobile-link" href="#all-products">View everything <span>↗</span></a>
+    </section>
+    <section class="editorial" id="journal"><div class="editorial-photo"><img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1400&q=85" alt="A quiet moment in an easy, layered outfit" loading="lazy"></div><div class="editorial-copy"><p class="eyebrow">The way we see it</p><h2>Less stuff.<br><em>More feeling.</em></h2><p>We believe in a wardrobe that knows you. Fewer pieces, better made, and so easy to reach for you forget you ever had a choice.</p><a class="button button-dark" href="#story">The Forme point of view <span>↗</span></a><span class="editorial-caption">Field notes, early autumn · 2026</span></div></section>
+    <section class="values section-wrap"><p class="eyebrow">Small choices, every day</p><div class="value-grid"><div><span class="value-number">01</span><h3>Made with care</h3><p>Thoughtful materials, considered from the very first thread.</p></div><div><span class="value-number">02</span><h3>People, always</h3><p>Good work means people behind every piece are treated well.</p></div><div><span class="value-number">03</span><h3>Here for a while</h3><p>We make fewer things so the ones you choose can stay awhile.</p></div></div></section>
+    <section class="contact-section" id="contact"><div class="contact-copy"><p class="eyebrow">A real person, right here</p><h2>Need a hand?<br><em>Say hello.</em></h2><p>Questions about sizing, an order, or just want to say hi? Send us a note and we’ll get back to you.</p><a class="contact-email" href="mailto:hello@formestudio.com">hello@formestudio.com ↗</a></div><form class="contact-form" id="contact-form"><label>Your name<input name="name" autocomplete="name" required placeholder="How should we call you?"></label><label>Email address<input name="email" type="email" autocomplete="email" required placeholder="you@example.com"></label><label>Your message<textarea name="message" rows="4" required placeholder="Tell us what's on your mind..."></textarea></label><button class="button button-dark" type="submit">Send your note <span>↗</span></button><small class="contact-hint">This opens your email app with your message ready to send.</small></form></section>
+    <section class="newsletter" id="newsletter"><div><p class="eyebrow light">A letter from Forme</p><h2>Good things, <em>in your inbox.</em></h2><p>New things, small thoughts, and a little treat for your first order.</p></div><form class="newsletter-form"><label class="visually-hidden" for="email">Your email address</label><input id="email" type="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe">Count me in <span>↗</span></button><small class="form-message" aria-live="polite">No noise, ever. Unsubscribe whenever.</small></form></section>
+  </main>
+  <footer class="site-footer"><a class="wordmark footer-mark" href="#home">forme<span>®</span></a><p>Wear your own story.</p><div class="footer-links"><a href="#shop">Instagram ↗</a><a href="#story">Our story</a><a href="#contact">Help & contact</a><span>© Forme Studio 2026</span></div></footer>
+  <aside class="cart-drawer" id="cart-drawer" aria-hidden="true" aria-label="Shopping bag"><div class="cart-backdrop" data-close-cart></div><div class="cart-panel"><div class="cart-heading"><div><p class="eyebrow">Your little collection</p><h2>Your bag <span class="drawer-count">(0)</span></h2></div><button class="cart-close" aria-label="Close shopping bag">×</button></div><div class="cart-items"></div><div class="cart-empty">Your bag is taking a little nap.<br><a href="#shop" data-close-cart>Find something lovely ↗</a></div><div class="cart-footer"><div class="cart-subtotal"><span>Subtotal</span><strong>$0</strong></div><p>Shipping and taxes calculated at checkout.</p><button class="checkout-button">Continue to checkout <span>↗</span></button><small>Checkout is a demo until a payment provider is connected.</small></div></div></aside>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
